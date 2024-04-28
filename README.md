@@ -14,12 +14,11 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 4. Plot the cluster graph
 
 ## Program:
-
+```
 Program to implement the K Means Clustering for Customer Segmentation.
-
 Developed by: CHANDRAPRIYADHARSHINI C
-
 RegisterNumber:  212223240019
+```
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -64,7 +63,6 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="yellow",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
-
 ```
 
 ## Output:
@@ -84,7 +82,6 @@ plt.title("Customer Segments")
 ![image](https://github.com/Bosevennila/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/144870486/3994f0a6-4ef0-4739-b8b8-bb76a58ebe69)
 
 ![image](https://github.com/Bosevennila/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/144870486/98623a1d-0ddf-4b04-b24c-04829be7b0cf)
-
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
